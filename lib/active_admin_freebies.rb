@@ -4,8 +4,6 @@ require_relative "active_admin_freebies/version"
 
 module ActiveAdminFreebies
   class Error < StandardError; end
-  # Your code goes here...
-
   # usage:
   #
   # Within an ActiveAdmin resource, include the module:
@@ -119,6 +117,4 @@ module ActiveAdminFreebies
       end
     end
   end
-end
-
 end
